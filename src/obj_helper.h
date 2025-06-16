@@ -1,3 +1,20 @@
+/**
+ * @file obj_helper.h
+ * @brief C++ Object Helper Classes
+ * @version 1.0.0
+ *
+ * This module provides C++ wrapper classes for the C-based object tree system.
+ * The main class Easy_Object provides a convenient STL-like interface for
+ * working with objects, including automatic reference counting and COM integration.
+ *
+ * Features:
+ * - RAII-style automatic memory management
+ * - STL-like container interface (map and array operations)
+ * - COM object integration with QueryInterface support
+ * - Type system with custom destructors
+ * - Template-based type registration
+ */
+
 #pragma once
 
 #include <atlbase.h>

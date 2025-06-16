@@ -1,10 +1,8 @@
 #include "obj_helper.h"
+#include "obj_tree.h"
 #include <cassert>
 #include <cstddef>
 #include <vector>
-
-#include "obj_helper.h"
-#include "obj_tree.h"
 
 Easy_Object Easy_Object::root_obj = {};
 Easy_Object Easy_Object::types_obj = {};

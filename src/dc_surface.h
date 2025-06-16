@@ -1,3 +1,19 @@
+/**
+ * @file dc_surface.h
+ * @brief Direct Composition Surface Management
+ * @version 1.0.0
+ *
+ * This module provides surface helper classes for rendering graphics components
+ * on Direct Composition surfaces. It supports various drawing primitives and
+ * custom drawing functions.
+ *
+ * Features:
+ * - Rectangle rendering with customizable colors
+ * - Custom drawing component support
+ * - Component management (add, remove, clear)
+ * - Surface compilation and rendering
+ */
+
 #pragma once
 #include <dcomp.h>
 #include <d2d1.h>

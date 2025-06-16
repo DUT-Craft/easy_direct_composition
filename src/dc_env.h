@@ -1,3 +1,20 @@
+/**
+ * @file dc_env.h
+ * @brief Direct Composition Environment
+ * @version 1.0.0
+ *
+ * This module provides the main environment class for managing Direct Composition
+ * devices, windows, and visual trees. It handles the initialization and management
+ * of D3D11, D2D1, and DirectComposition resources.
+ *
+ * Features:
+ * - Window creation and management
+ * - D3D11 device initialization
+ * - DirectComposition device and visual tree setup
+ * - Message loop handling
+ * - Visual and surface creation
+ */
+
 #pragma once
 #include <d3d11_1.h>
 #include <d3dcompiler.h>
@@ -6,7 +23,6 @@
 #include <windows.h>
 #include <atlbase.h>
 #include <d2d1.h>
-
 
 #include "obj_helper.h"
 

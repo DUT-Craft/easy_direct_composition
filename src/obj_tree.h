@@ -1,3 +1,20 @@
+/**
+ * @file obj_tree.h
+ * @brief Object Tree Management System
+ * @version 1.0.0
+ *
+ * This module provides a C-based object tree system with reference counting,
+ * attribute management, and type system support. It serves as the foundation
+ * for the Easy Direct Composition library.
+ *
+ * Features:
+ * - Reference counting for automatic memory management
+ * - Hash-based attribute storage
+ * - Type system with custom destructors
+ * - UTF-32 string support
+ * - Debug support with object tagging
+ */
+
 #ifndef _OBJ_TREE_H_
 #define _OBJ_TREE_H_
 
